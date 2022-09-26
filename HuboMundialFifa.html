@@ -1,0 +1,28 @@
+<meta charset="UTF-8">
+
+<h1>Hubo mundial de la fifa en el ahno? </h1>
+
+<script>
+
+    function saltarLinea() {
+        document.write("<br>");    
+        document.write("<br>");    
+        document.write("<br>");    
+    }  
+
+    function imprimir(frase) {
+        document.write(frase);
+        saltarLinea();
+    }
+
+    var ahnoMundial = 1930;
+    var limite = parseInt(prompt("Ingrese el anhno limite para calcular"));
+
+    while(ahnoMundial <= limite){
+        
+        imprimir("Hubo mundial de la fifa en el ahno " + ahnoMundial);
+        ahnoMundial = ahnoMundial + 4;
+    }
+    imprimir(fin);
+
+</script>
